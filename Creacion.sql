@@ -17,7 +17,9 @@ Apellido varchar(50)
 
 create table Habitacion(
 IdHabitacion int auto_increment primary key,
-Tipo varchar(50)
+Tipo varchar(50),
+IdHotel int,
+foreign key(IdHotel) references Hotel(IdHotel)
 );
 
 CREATE TABLE Checkin (
