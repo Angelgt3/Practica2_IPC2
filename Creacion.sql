@@ -4,6 +4,7 @@ Use Hoteles;
 
 create table Hotel(
 IdHotel int auto_increment primary key,
+Nombre varchar(50),
 CantidadDisponible int,
 Pais varchar(50),
 Estrellas int

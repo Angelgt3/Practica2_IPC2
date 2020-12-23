@@ -1,22 +1,22 @@
 use hoteles;
 
-insert into hotel(CantidadDisponible,Pais,Estrellas) values (40,'Guatemala',3);
-insert into hotel(CantidadDisponible,Pais,Estrellas) values (40,'Francia',3);
-insert into hotel(CantidadDisponible,Pais,Estrellas) values (40,'Italia',3);
-insert into hotel(CantidadDisponible,Pais,Estrellas) values (40,'Guatemala',3);
-insert into hotel(CantidadDisponible,Pais,Estrellas) values (40,'Italia',3);
+insert into hotel(CantidadDisponible,Nombre,Pais,Estrellas) values (40,'Hotel 1','Guatemala',3);
+insert into hotel(CantidadDisponible,Nombre,Pais,Estrellas) values (40,'Hotel 2','Francia',3);
+insert into hotel(CantidadDisponible,Nombre,Pais,Estrellas) values (40,'Hotel 3','Guatemala',3);
+insert into hotel(CantidadDisponible,Nombre,Pais,Estrellas) values (40,'Hotel 4','Guatemala',3);
+insert into hotel(CantidadDisponible,Nombre,Pais,Estrellas) values (40,'Hotel 5','Italia',3);
 
-insert into hotel(CantidadDisponible,Pais,Estrellas) values (50,'Guatemala',4);
-insert into hotel(CantidadDisponible,Pais,Estrellas) values (50,'Guatemala',4);
-insert into hotel(CantidadDisponible,Pais,Estrellas) values (50,'Francia',4);
-insert into hotel(CantidadDisponible,Pais,Estrellas) values (50,'Francia',4);
-insert into hotel(CantidadDisponible,Pais,Estrellas) values (50,'Italia',4);
+insert into hotel(CantidadDisponible,Nombre,Pais,Estrellas) values (50,'Hotel 6','Guatemala',4);
+insert into hotel(CantidadDisponible,Nombre,Pais,Estrellas) values (50,'Hotel 7','Guatemala',4);
+insert into hotel(CantidadDisponible,Nombre,Pais,Estrellas) values (50,'Hotel 8','Francia',4);
+insert into hotel(CantidadDisponible,Nombre,Pais,Estrellas) values (50,'Hotel 9','Francia',4);
+insert into hotel(CantidadDisponible,Nombre,Pais,Estrellas) values (50,'Hotel 10','Italia',4);
 
-insert into hotel(CantidadDisponible,Pais,Estrellas) values (60,'Guatemala',5);
-insert into hotel(CantidadDisponible,Pais,Estrellas) values (60,'Francia',5);
-insert into hotel(CantidadDisponible,Pais,Estrellas) values (60,'Francia',5);
-insert into hotel(CantidadDisponible,Pais,Estrellas) values (60,'Italia',5);
-insert into hotel(CantidadDisponible,Pais,Estrellas) values (60,'Italia',5);
+insert into hotel(CantidadDisponible,Nombre,Pais,Estrellas) values (60,'Hotel 11','Italia',5);
+insert into hotel(CantidadDisponible,Nombre,Pais,Estrellas) values (60,'Hotel 12','Francia',5);
+insert into hotel(CantidadDisponible,Nombre,Pais,Estrellas) values (60,'Hotel 13','Francia',5);
+insert into hotel(CantidadDisponible,Nombre,Pais,Estrellas) values (60,'Hotel 14','Italia',5);
+insert into hotel(CantidadDisponible,Nombre,Pais,Estrellas) values (60,'Hotel 15','Italia',5);
 
 insert into habitacion(Tipo,Estado,IdHotel) values('Simple',false,1);
 insert into habitacion(Tipo,Estado,IdHotel) values('Simple',false,1);
@@ -184,7 +184,7 @@ insert into reservacion(IdHabitacion,IdCliente,IdHotel,Fecha) values(4,2,15,'202
 insert into reservacion(IdHabitacion,IdCliente,IdHotel,Fecha) values(7,2,1,'2019-06-15');
 insert into reservacion(IdHabitacion,IdCliente,IdHotel,Fecha) values(3,2,2,'2018-07-12');
 insert into reservacion(IdHabitacion,IdCliente,IdHotel,Fecha) values(8,2,3,'2020-08-13');
-insert into reservacion(IdHabitacion,IdCliente,IdHotel,Fecha) values(2,2,4,'2019-09-11');
+insert into reservacion(IdHabitacion,IdCliente,IdHotel,Fecha) values(2,2,4,'2019-09-15');
 insert into reservacion(IdHabitacion,IdCliente,IdHotel,Fecha) values(9,2,5,'2020-10-16');
 
 insert into reservacion(IdHabitacion,IdCliente,IdHotel,Fecha) values(1,3,6,'2020-11-02');
@@ -195,7 +195,7 @@ insert into reservacion(IdHabitacion,IdCliente,IdHotel,Fecha) values(4,3,10,'201
 insert into reservacion(IdHabitacion,IdCliente,IdHotel,Fecha) values(7,3,11,'2018-06-05');
 insert into reservacion(IdHabitacion,IdCliente,IdHotel,Fecha) values(3,3,12,'2020-07-29');
 insert into reservacion(IdHabitacion,IdCliente,IdHotel,Fecha) values(8,3,13,'2020-08-22');
-insert into reservacion(IdHabitacion,IdCliente,IdHotel,Fecha) values(2,3,14,'2018-07-15');
+insert into reservacion(IdHabitacion,IdCliente,IdHotel,Fecha) values(2,3,14,'2018-09-15');
 insert into reservacion(IdHabitacion,IdCliente,IdHotel,Fecha) values(9,3,15,'2019-10-22');
 
 insert into reservacion(IdHabitacion,IdCliente,IdHotel,Fecha) values(1,4,1,'2020-11-02');
@@ -214,7 +214,7 @@ insert into reservacion(IdHabitacion,IdCliente,IdHotel,Fecha) values(4,5,12,'201
 insert into reservacion(IdHabitacion,IdCliente,IdHotel,Fecha) values(5,5,13,'2018-11-27');
 insert into reservacion(IdHabitacion,IdCliente,IdHotel,Fecha) values(6,5,14,'2020-04-26');
 insert into reservacion(IdHabitacion,IdCliente,IdHotel,Fecha) values(4,5,15,'2020-05-16');
-insert into reservacion(IdHabitacion,IdCliente,IdHotel,Fecha) values(7,5,1,'2020-07-15');
+insert into reservacion(IdHabitacion,IdCliente,IdHotel,Fecha) values(7,5,1,'2020-09-15');
 insert into reservacion(IdHabitacion,IdCliente,IdHotel,Fecha) values(3,5,2,'2019-07-29');
 insert into reservacion(IdHabitacion,IdCliente,IdHotel,Fecha) values(8,5,3,'2018-08-22');
 insert into reservacion(IdHabitacion,IdCliente,IdHotel,Fecha) values(2,5,4,'2019-05-10');
@@ -228,11 +228,11 @@ insert into reservacion(IdHabitacion,IdCliente,IdHotel,Fecha) values(4,6,10,'202
 insert into reservacion(IdHabitacion,IdCliente,IdHotel,Fecha) values(7,6,11,'2019-06-05');
 insert into reservacion(IdHabitacion,IdCliente,IdHotel,Fecha) values(3,6,12,'2018-07-29');
 insert into reservacion(IdHabitacion,IdCliente,IdHotel,Fecha) values(8,6,13,'2019-08-22');
-insert into reservacion(IdHabitacion,IdCliente,IdHotel,Fecha) values(2,6,14,'2020-07-15');
+insert into reservacion(IdHabitacion,IdCliente,IdHotel,Fecha) values(2,6,14,'2020-09-15');
 insert into reservacion(IdHabitacion,IdCliente,IdHotel,Fecha) values(9,6,15,'2019-10-22');
 
 insert into reservacion(IdHabitacion,IdCliente,IdHotel,Fecha) values(1,7,1,'2020-11-02');
-insert into reservacion(IdHabitacion,IdCliente,IdHotel,Fecha) values(7,7,2,'2019-12-15');
+insert into reservacion(IdHabitacion,IdCliente,IdHotel,Fecha) values(7,7,2,'2019-09-15');
 insert into reservacion(IdHabitacion,IdCliente,IdHotel,Fecha) values(5,7,3,'2020-05-10');
 insert into reservacion(IdHabitacion,IdCliente,IdHotel,Fecha) values(6,7,4,'2018-04-26');
 insert into reservacion(IdHabitacion,IdCliente,IdHotel,Fecha) values(4,7,5,'2020-05-16');
@@ -270,7 +270,7 @@ insert into reservacion(IdHabitacion,IdCliente,IdHotel,Fecha) values(5,10,3,'201
 insert into reservacion(IdHabitacion,IdCliente,IdHotel,Fecha) values(6,10,4,'2018-04-26');
 insert into reservacion(IdHabitacion,IdCliente,IdHotel,Fecha) values(4,10,5,'2020-05-16');
 insert into reservacion(IdHabitacion,IdCliente,IdHotel,Fecha) values(7,10,6,'2018-06-05');
-insert into reservacion(IdHabitacion,IdCliente,IdHotel,Fecha) values(3,10,7,'2020-07-29');
+insert into reservacion(IdHabitacion,IdCliente,IdHotel,Fecha) values(3,10,7,'2020-09-15');
 insert into reservacion(IdHabitacion,IdCliente,IdHotel,Fecha) values(8,10,8,'2018-05-10');
 insert into reservacion(IdHabitacion,IdCliente,IdHotel,Fecha) values(2,10,9,'2019-09-24');
 insert into reservacion(IdHabitacion,IdCliente,IdHotel,Fecha) values(9,10,10,'2020-10-22');
